@@ -1,0 +1,19 @@
+{
+  "name": "raachoco-flroist",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "npx -y serve -l 8080 .",
+    "dev": "npx -y serve -l 8080 .",
+    "test": "playwright test",
+    "change-pin": "node scripts/change-pin.js",
+    "optimize-images": "node scripts/optimize-images.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  }
+}
